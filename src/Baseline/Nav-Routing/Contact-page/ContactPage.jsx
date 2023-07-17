@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../Navbar/Nav";
 import '../Contact-page/Contact.less';
 // import CntactForm from "./ContactForm";
-import ContactForm from "./contactForm";
+import ContactForm from "./ContactForm";
 import Details from "./Details";
 import Aboutfooter from "../../Footer/Aboutfooter";
 const ContactPage = () => {
