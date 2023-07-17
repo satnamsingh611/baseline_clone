@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import PhoneInput from "react-phone-number-input";
 // import { v4 as uuidv4, v5 as uuidv5 } from 'uuid';
-import emailjs from 'emailjs-com'
 import '../Contact-page/CForm.less';
 import EmailPopup from "../../../popup/Emailpopup";
 import { URL } from "../../constant/constant";
