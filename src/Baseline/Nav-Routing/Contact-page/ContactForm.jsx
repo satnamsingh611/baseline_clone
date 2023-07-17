@@ -5,7 +5,7 @@ import '../Contact-page/CForm.less';
 import EmailPopup from "../../../popup/Emailpopup";
 import { URL } from "../../constant/constant";
 
-const CntactForm = () => {
+const ContactForm = () => {
     const [SelectCountry, setSelectCountry] = useState()
 
     const [thankupopup, setThankupopup] = useState()
@@ -175,7 +175,7 @@ const CntactForm = () => {
 
     )
 }
-export default CntactForm
+export default ContactForm
 
 
 

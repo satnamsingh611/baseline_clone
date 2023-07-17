@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../Navbar/Nav";
 import '../Contact-page/Contact.less';
 // import CntactForm from "./ContactForm";
-import CntactForm from "./contactForm";
+import ContactForm from "./contactForm";
 import Details from "./Details";
 import Aboutfooter from "../../Footer/Aboutfooter";
 const ContactPage = () => {
@@ -23,7 +23,7 @@ const ContactPage = () => {
                             </div>
                         </div>
                     </div>
-                    <CntactForm/>
+                    <ContactForm/>
                     <Details/>
                    
                 </div>
