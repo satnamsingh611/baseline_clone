@@ -19,16 +19,21 @@ const Section6 = () => {
                             <img src="	https://baselineitdevelopment.com/assets/images/CoverImage.png" alt="Baseline" />
                         </div>
                         <div className="img-button">
-                            <a className="read-btn" style={{ display: "flex" }} href="https://baselineitdevelopment.com/services" role="button">Read more
+                            <a className="read-btn cta" href="https://baselineitdevelopment.com/services" role="button">
                                 <span style={{marginLeft:"10px"}}>
-                                    <motion.div
+                                    {/* <motion.div
                                         initial={{ x: '-100%' }}
                                         whileInView={{ x: '0' }}
                                         transition={{ duration: 1 }}
 
                                     >
                                         <i className="fa-solid fa-arrow-right-long aos-init" ></i>
-                                    </motion.div>
+                                    </motion.div> */}
+                                    <span>Read more</span>
+                                    <svg width="13px" height="10px" viewBox="0 0 13 10">
+    <path d="M1,5 L11,5"></path>
+    <polyline points="8 1 12 5 8 9"></polyline>
+  </svg>
                                 </span></a>
                         </div>
                     </div>

@@ -50,7 +50,7 @@ const Footer = () => {
                                 <div className="contant-box" id="readmore">
                                     <div className="read-more expanded">
                                         <div className="content">
-                                            <p style={{ margin: "0" }}>The staff is really appreciated for what has the creativity in their service coming back to me.
+                                            <p>The staff is really appreciated for what has the creativity in their service coming back to me.
                                                 <span style={{ display: !read1 ? "none" : "block" }}>I visited into the company (Baseline IT Development), there is a great environment, and everyone is busy with their work in a peaceful manner. I saw the actual work environment, that I saw before.
                                                     The sales team is very talented in communication and coordination with all the staff as well as clients. I talked with seniors and Team leads, everyone has experts in their work. I got the best service.
                                                     I am very happy, about I have a good partner to take care of my online business. I really appreciate for amazing staff in Baseline IT Development!! Amazing service!!! </span></p>
