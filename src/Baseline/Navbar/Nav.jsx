@@ -50,9 +50,9 @@ const searchbtnnav=()=>{
                         {/* ----- list  */}
                         <div className="col-md-5  navbar__menus">
                             <ul className='nav__list'>
-                                <li><NavLink className='nav_list-link' to="/">HOME</NavLink></li>
+                                <li><NavLink className='nav_list-link btn from-top' to="/"><span>HOME</span></NavLink></li>
 
-                                <li><NavLink className='nav_list-link' to='/about'>ABOUT</NavLink></li>
+                                <li><NavLink className='nav_list-link btn from-top' to='/about'><span>ABOUT</span></NavLink></li>
                                 <div className="serviceoptaion">
                                     <li className='drop-down-li'><NavLink className='nav_list-link' to='/services'>SERVICE</NavLink></li>
                                     <ul className='service-dropdown' >
@@ -62,8 +62,8 @@ const searchbtnnav=()=>{
                                         <li><NavLink to="/SEOPage" className='service-option-link'>SEO</NavLink></li>
                                     </ul>
                                 </div>
-                                <li><NavLink className='nav_list-link' to="/Career">CAREER</NavLink></li>
-                                <li><NavLink className='nav_list-link' to="/blog">BLOG</NavLink></li>
+                                <li><NavLink className='nav_list-link btn from-top' to="/Career"><span>CAREER</span></NavLink></li>
+                                <li><NavLink className='nav_list-link btn from-top' to="/blog"><span>BLOG</span></NavLink></li>
                             </ul>
                         </div>
                         <div className="col-md-4  navbar__contact-search">
