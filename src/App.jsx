@@ -8,7 +8,7 @@ import Home from "./Baseline/Home/Home";
 import SeverciesRoute from "./Baseline/Nav-Routing/Service/SeverciesRoute";
 import ContactPage from "./Baseline/Nav-Routing/Contact-page/ContactPage";
 import Career from "./Baseline/Nav-Routing/Career/Career";
-import Blog from "./Baseline/Nav-Routing/Blog/Blog";
+import Blog from "./Baseline/Nav-Routing/Blog/Blog";  
 import Webdevelopment from "./Baseline/Nav-Routing/ServiceHoverListRoute/Webdevelopment/Webdevelopment";
 import WebdesignPage from "./Baseline/Nav-Routing/ServiceHoverListRoute/Webdesign/Webdesign";
 import DigitalMarketing from "./Baseline/Nav-Routing/ServiceHoverListRoute/DigitalMarketing/DigitalMarketing";
