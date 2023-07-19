@@ -67,8 +67,10 @@ const CareerView = () => {
   const handleChange = (e) => {
     if (e.target.name === "attachment") {
       setForm({ ...form, [e.target.name]: e.target.files[0] });
+      validateForm()
     } else {
       setForm({ ...form, [e.target.name]: e.target.value });
+      validateForm()
     }
   };
 

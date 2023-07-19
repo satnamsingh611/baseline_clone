@@ -39,30 +39,10 @@ const ContactForm = () => {
       isValid = false;
     }
 
-    // Validate phone number
-    // if (data.number.trim() === "") {
-    //   validationErrors.phone = "Please enter your phone number";
-    //   isValid = false;
-    // } else if (!/^\d{10}$/.test(form.phone)) {
-    //   validationErrors.phone = "Please enter a valid 10-digit phone number";
-    //   isValid = false;
-    // }
-
     if (data.service.trim() === "") {
-      validationErrors.service = "Please enter your name";
+      validationErrors.service = "Please enter your type of Service";
       isValid = false;
     }
-
-    // if (data.message.trim() === "") {
-    //     validationErrors.message = "Please enter your name";
-    //     isValid = false;
-    //   }
-
-    // // Validate attachment
-    // if (!form.attachment) {
-    //   validationErrors.attachment = "Please upload your CV";
-    //   isValid = false;
-    // }
 
     setErrors(validationErrors);
     return isValid;
@@ -72,10 +52,12 @@ const ContactForm = () => {
     let name = e.target.name;
     let value = e.target.value;
     if (name === "phone") {
-      value = e.trget.value;
+      value = e.target.value;
     }
 
     setData({ ...data, [name]: value });
+    validateForm()
+
   };
 
   const submitData = (e) => {
