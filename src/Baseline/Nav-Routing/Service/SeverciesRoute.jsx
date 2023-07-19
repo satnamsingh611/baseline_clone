@@ -3,6 +3,8 @@ import NavBar from '../../Navbar/Nav';
 import '../Service/Services.less';
 import ServiceRoutes from './ServiceRoutes';
 import Aboutfooter from '../../Footer/Aboutfooter';
+import { motion } from 'framer-motion'
+
 
 
 function SeverciesRoute() {
@@ -16,28 +18,32 @@ function SeverciesRoute() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 service-title" >
-                            <div class="services-heading">
-                                <h2 class="orgnicetxt"><span style={{color: "#bb372a"}}>Organise</span> Projects.<br />
+                            <div className="services-heading">
+                                <h2 className="orgnicetxt"><span style={{ color: "#bb372a" }}>Organise</span> Projects.<br />
                                     Get More Done.</h2>
-                                <a style={{background: "#bb372a",color:"white"}} class="btn  ms-4" href="https://baselineitdevelopment.com/contact" role="button">Get Started</a>
+                                <a style={{ background: "#bb372a", color: "white" }} className="btn ms-4" href="https://baselineitdevelopment.com/contact" role="button">Get Started</a>
 
                             </div>
                         </div>
                         <div className="col-md-6">
-
                         </div>
                     </div>
-
-
                 </div>
             </div>
             <div className='section-committed-delivering-main'>
                 <div className="container">
 
                     <div className="our-service">
-                        <h2 style={{ fontSize: "60px", fontWeight: "700" }} className=" aos-animate">Our <span style={{ color: "#bb372a" }}>Services</span></h2>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+                            transition={{ duration: 1 }}>
+                            <h2 style={{ fontSize: "60px", fontWeight: "700" }} className=" aos-animate">Our <span style={{ color: "#bb372a" }}>Services</span></h2>
+                        </motion.div>
                         <p style={{ fontSize: "18px", color: "#444345", lineHeight: "24px", marginTop: "20px" }}>
-                            Despite being the most trusted website development &amp; <a href="https://baselineitdevelopment.com/web-designing-company-in-mohali">web designing company in Mohali</a>, we also offer result-driven digital marketing solutions. We do everything for your impeccable growth, from providing you with the <a href="https://baselineitdevelopment.com/seo-company-mohali">best SEO services in Mohali</a> to other digital solutions.
+                            Despite being the most trusted website development &amp; <a href="https://baselineitdevelopment.com/web-designing-company-in-mohali">web designing company in Mohali</a>
+                            , we also offer result-driven digital marketing solutions. We do everything for your impeccable growth, from providing you with the
+                            <a href="https://baselineitdevelopment.com/seo-company-mohali">best SEO services in Mohali</a> to other digital solutions.
                         </p>
                     </div>
                     <div className="row">
@@ -169,8 +175,81 @@ function SeverciesRoute() {
 
                 </div>
             </div >
-            <Aboutfooter />
 
+            <div className="section-Benefits">
+                <div className="container">
+                    <div className="Benefits">
+                        <motion.div
+                            initial={{ x: 100 }}
+                            whileInView={{ x: '0' }}
+                            transition={{ duration: 1 }}
+
+                        >
+                            <h1 className="orgnicetxt" style={{ fontSize: "47px", fontWeight: "700" }}> Benefits of working <br /><span style={{ color: "#bb372a" }}>with us</span></h1>
+                        </motion.div>
+                        <p style={{ marginTop: '25px', marginBottom: "50px" }}>Working is the better way to keep you busy, challenge you, and give you the means to develop yourself to get an identity and <br />personal achievement. It provides you with income and builds up your skills and knowledge.</p>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6 d-flex pb-3">
+                            <div className="icn" style={{ margin: '10px 20px 0px 0px' }}>
+                                <img src="https://baselineitdevelopment.com/assets/images/02.png" alt="Baseline" />
+                            </div>
+                            <div className="txt">
+                                <h3 className='fw-bold'>Teamwork</h3>
+                                <p>Our team always works together to achieve a goal. Good teamwork is possible when team members work with a positive attitude.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-6 d-flex pb-3">
+                            <div className="icn" style={{ margin: '10px 20px 0px 0px' }}>
+                                <img src="https://baselineitdevelopment.com/assets/images/02.png" alt="Baseline" />
+                            </div>
+                            <div className="txt">
+                                <h3 className='fw-bold'>Discipline</h3>
+                                <p>We are maintaining discipline in our company for a safe and pleasant work environment for everyone. Business discipline is managing marketing, information technology, and finances.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-6 d-flex">
+                            <div className="icn">
+                                <img src="https://baselineitdevelopment.com/assets/images/02.png" alt="Baseline" />
+                            </div>
+                            <div className="txt">
+                                <h3 className='fw-bold'>Perseverance</h3>
+                                <p>If our company faces something despite difficulties we are continued efforts to achieve the goal. We keep trying despite the challenges to show perseverance. </p>
+                            </div>
+                        </div>
+                        <div className="col-md-6 d-flex">
+                            <div className="icn">
+                                <img src="https://baselineitdevelopment.com/assets/images/02.png" alt="Baseline" />
+                            </div>
+                            <div className="txt">
+                                <h3 className='fw-bold'>Client focus</h3>
+                                <p>If you hire us then we focus on client requirements and get all details about the project. We got great reviews from previous clients for development and design work.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div >
+
+
+            <div className="section-HEAR">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: 1 }}>
+                                <h2 data-aos="zoom-in" data-aos-duration="1000" className="aos-init aos-animate">The <span style={{ color: "#bb372a" }}>simplest</span> solution to the most complex problem is provided by us.</h2>
+                            </motion.div>
+                            <a className="btn btn-primary ms-4" href="https://baselineitdevelopment.com/contact" role="button" style={{ background: "#bb372a", boxShadow: "2px 5px 9px -2px #e55959c7" }}>Contact us</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <Aboutfooter />
 
 
 

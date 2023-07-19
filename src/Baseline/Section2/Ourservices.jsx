@@ -7,35 +7,34 @@ const Ourservices = (props) => {
         <>
             <div className="servicesType">
                 <div className="row services-groups">
-                  
-                    <div className="col-md-4  services">
-                        <div className="service-group ">
-                            <div className="service-png ">
-                                {props.icons}
-                            </div>
-                            <div className="severice-info ">
-                                <h3>{props.heading}</h3>
-                                <p style={{ fontSize: "16px", padding: "0 17px" }}>{props.info}</p>
-                            </div>
-                        </div>
-                        <div className="service-group hover-content" style={{ margin: "-30px 0" }}>
-                            <div className="service-png" >
-                                {props.icons1}
-                            </div>
-                            <div className="severice-info px-3">
-                                <h3 style={{ color: "white", textAlign: "start", fontSize: "16px", fontWeight: "600" }}>
-                                    <span>{props.heading1}</span><br></br>{props.heading2}</h3>
-                                <ul style={{ textAlign: "start" }}>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list1}</li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list2}</li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list3}</li>
-                                    <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list4}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                  
 
+                    <div className="col-md-4 services">
+                            <div className="service-group">
+                                <div className="service-png ">
+                                    {props.icons}
+                                </div>
+                                <div className="severice-info">
+                                    <h3>{props.heading}</h3>
+                                    <p style={{ fontSize: "16px", padding: "0 17px" }}>{props.info}</p>
+                                </div>
+                            </div>
+                            <div className="service-group hover-content" style={{ margin: "-30px 0" }}>
+                                <div className="service-png" >
+                                    {props.icons1}
+                                </div>
+                                <div className="severice-info px-3">
+                                    <h3 style={{ color: "white", textAlign: "start", fontSize: "16px", fontWeight: "600" }}>
+                                        <span>{props.heading1}</span><br></br>{props.heading2}</h3>
+                                    <ul style={{ textAlign: "start" }}>
+                                        <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list1}</li>
+                                        <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list2}</li>
+                                        <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list3}</li>
+                                        <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.list4}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                  
                     <div className="col-md-4 services mid-down-severcie " >
                         <div className="service-group  ">
                             <div className="service-png " >
@@ -57,8 +56,8 @@ const Ourservices = (props) => {
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle2} </li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle3}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle4} </li>
-                             
-                                    
+
+
                                 </ul>
                             </div>
                         </div>
@@ -87,13 +86,12 @@ const Ourservices = (props) => {
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}> {props.listright3}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listright4}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}> {props.listright5}</li>
-                                 
                                 </ul>
                             </div>
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </>
 
