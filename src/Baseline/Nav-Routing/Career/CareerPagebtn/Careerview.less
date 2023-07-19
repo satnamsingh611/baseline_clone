@@ -2,6 +2,18 @@
     padding: 0;
     margin: 0;
 }
+.error {
+    color: rgb(192, 10, 10);
+}
+.border-red {
+    border: 1px solid rgb(192, 10, 10)!important;
+}
+input {
+    transition: 0.2s ease;
+}
+.border-red:focus {
+    outline: 1px solid rgb(192, 10, 10)!important;
+}
 
 .Career-view-main {
     .container {
@@ -25,14 +37,21 @@
 
                         input {
                             border: 1px solid;
-                            width: 90%;
+                            width: 95%;
                             padding: 5px 8px;
                             border-radius: 10px;
                         }
                     }
                     .btn {
-                        width: 92%;
-                        input[type="submit"] {
+                        width: 95%;
+                        .loading-gif {
+                            height: 30px;    
+                            margin-left: 10px;
+                        }
+                        button {
+                            display: flex;
+                            justify-content: center;
+                            place-items: center;
                             width: 100%;
                             height: 42px;
                             background: #bb372a;
@@ -41,7 +60,7 @@
                             color: white;
                             border-radius: 10px;
                             margin: 0 0 13px 1px;
-                            font-family: math;
+                            
                         }
                     }
                 }
