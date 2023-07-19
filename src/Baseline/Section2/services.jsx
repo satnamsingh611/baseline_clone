@@ -11,23 +11,28 @@ const Srvices = () => {
                 <div className="container">
                     <div className="delivery">
                         <h2> We're Committed to Delivering Excellence! </h2>
-                        <p> As a leading web development company in Mohali as well, we strive to match our web development solutions to your long-term marketing and growth goals. Our experts never believe in a one-size-fits-all approach and thus they prefer customization as per your needs.
+                        <p> As a leading web development company in Mohali as well, we strive to match our web development solutions to your long-term marketing and
+                            growth goals. Our experts never believe in a one-size-fits-all approach and thus they prefer customization as per your needs.
 
-                            Our seasoned team of well-trained and knowledgeable digital marketers has already helped hundreds of small businesses, big enterprises, SMEs, and start-ups get their brands on top of the competition. It's now might be your turn, so, are you ready for it?
+                            Our seasoned team of well-trained and knowledgeable digital marketers has already helped
+                            hundreds of small businesses, big enterprises, SMEs, and start-ups get their brands on top of the competition. It's now might be your turn, so, are you ready for it?
                         </p>
                     </div>
                     <div className="our-service">
                         <motion.div
-                            initial={{ opacity: 0, scale: 0}}
+                            initial={{ opacity: 0, scale: 0 }}
                             whileInView={{ opacity: 1, scale: 1, x: 0 }}
                             transition={{ duration: 1 }}>
                             <h2 style={{ fontSize: "50px", fontWeight: "700" }} className=" aos-animate">Our <span style={{ color: "#bb372a" }}>Services</span></h2>
                         </motion.div>
                         <p style={{ fontSize: "18px", color: "#444345", lineHeight: "24px", marginTop: "20px" }}>
-                            Despite being the most trusted website development &amp; <a href="https://baselineitdevelopment.com/web-designing-company-in-mohali">web designing company in Mohali</a>, we also offer result-driven digital marketing solutions. We do everything for your impeccable growth, from providing you with the <a href="https://baselineitdevelopment.com/seo-company-mohali">best SEO services in Mohali</a> to other digital solutions.
+                            Despite being the most trusted website development &amp; <a href="https://baselineitdevelopment.com/web-designing-company-in-mohali">
+                                web designing company in Mohali</a>,
+                            we also offer result-driven digital marketing solutions. We do everything for your impeccable growth, from providing you with the
+                            <a href="https://baselineitdevelopment.com/seo-company-mohali">best SEO services in Mohali</a> to other digital solutions.
                         </p>
                     </div>
-                    <div className="row" style={{justifyContent:'space-around'}}>
+                    <div className="row" style={{ justifyContent: 'space-around' }}>
                         <Ourservices
                             heading="Php developer"
                             heading1="Php"
