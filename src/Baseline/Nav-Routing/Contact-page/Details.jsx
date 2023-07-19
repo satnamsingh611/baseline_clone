@@ -1,5 +1,6 @@
 import React from "react";
 import '../Contact-page/Details.less'
+import ButtonMailto from "../../mail-to/Mailto";
 
 const Details = () => {
     return (
@@ -14,8 +15,8 @@ const Details = () => {
                                     <li>1st FLOOR, F33</li>
                                     <li>Phase-8, Industrial Area, Sector 73</li>
                                     <li>Sahibzada Ajit Singh Nagar, Punjab 160071</li>
-                                    <li className="emilii">E-Mail:<a style={{ color: "#bb372a", textDecoration: "none" }} href=""> hr@baselineitdevelopment.com</a></li>
-                                    <li className="sless">E-Mail:<a style={{ color: "#bb372a", textDecoration: "none" }} href=""> sales@baselineitdevelopment.com</a></li>
+                                    <li className="emilii">E-Mail:<ButtonMailto label=" hr@baselineitdevelopment.com" mailto="mailto:no-reply@example.com" style={{ color: "#bb372a", textDecoration: "none" }} href=""> hr@baselineitdevelopment.com</ButtonMailto></li>
+                                    <li className="sless">E-Mail:<ButtonMailto label=" sales@baselineitdevelopment.com" mailto="mailto:no-reply@example.com" style={{ color: "#bb372a", textDecoration: "none" }} href=""> sales@baselineitdevelopment.com</ButtonMailto></li>
                                 </ul>
                             </div>
 
