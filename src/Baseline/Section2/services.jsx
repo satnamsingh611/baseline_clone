@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from 'framer-motion'
 
-// import '../Section2/section2.less'
-import '../Section2/Section2.less';
+import '../Section2/section2.less'
+
 import Ourservices from "./Ourservices";
 const Srvices = () => {
     return (
