@@ -8,7 +8,7 @@ const Ourservices = (props) => {
             <div className="servicesType">
                 <div className="row services-groups">
 
-                    <div className="col-md-4 services">
+                       <div className="col-md-4 services">
                             <div className="service-group">
                                 <div className="service-png ">
                                     {props.icons}
@@ -56,7 +56,6 @@ const Ourservices = (props) => {
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle2} </li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle3}</li>
                                     <li style={{ listStyleType: "disclosure-closed", color: "white" }}>{props.listmiddle4} </li>
-
 
                                 </ul>
                             </div>
